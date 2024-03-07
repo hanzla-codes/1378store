@@ -54,7 +54,6 @@ const UsersPage = () => {
                   <th>Name</th>
                   <th>Email</th>
                   <th className='text-center'>Role</th>
-                  <th className='text-center'>Action</th>
                 </tr>
               </thead>
               <tbody>
