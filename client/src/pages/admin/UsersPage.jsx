@@ -71,16 +71,6 @@ const UsersPage = () => {
                         <Badge bg='secondary'>Customer</Badge>
                       )}
                     </td>
-                    <td className='text-center'>
-                      <Button
-                        as={NavLink}
-                        to={`/admin/users/${user._id}`}
-                        className='btn-sm'
-                        variant='light'
-                      >
-                        Details
-                      </Button>
-                    </td>
                   </tr>
                 ))}
               </tbody>
